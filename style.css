@@ -210,6 +210,7 @@ body {
   margin-top: 1rem;
   background: var(--clr-Dark-gray-blue);
   color: var(--clr-white);
+  cursor: pointer;
 }
 
 .button:hover {
@@ -223,7 +224,7 @@ body {
     grid-template-columns: 1fr 1fr;
     border-radius: 2rem;
     gap: 1rem;
-    box-shadow: 2px 2px 2px 2px rgba(189, 189, 189, 0.37);
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
   }
   .results__total {
     height: 100%;
@@ -243,7 +244,8 @@ body {
     width: 65%;
   }
   .button {
-    padding: 0.5rem 0;
+    padding: 0.4rem 0.12rem;
+    margin-bottom: 1.5rem;
   }
   .results__total .marks {
     height: 13rem;
