@@ -219,7 +219,7 @@ body {
 
 @media (min-width: 725px) {
   .results__preview {
-    margin-top: 4rem;
+    margin-top: 15%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-radius: 2rem;
